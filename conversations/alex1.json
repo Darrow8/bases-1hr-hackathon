@@ -1,0 +1,169 @@
+[
+  {
+    "messages": [
+      { "sender": "me", "text": "Hey, are you free to talk about the project?" },
+      { "sender": "Alex", "text": "Yeah, sure! Let’s go over it now." }
+    ],
+    "label": "healthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "You never listen when I try to explain things." },
+      { "sender": "Alex", "text": "That’s not true, you just don’t make any sense sometimes." }
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "I’m feeling a bit anxious about the presentation tomorrow." },
+      { "sender": "Alex", "text": "Don’t worry, you’ve prepared really well. I’ll help you practice if you want." }
+    ],
+    "label": "healthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "Why did you ignore my message all day?" },
+      { "sender": "Alex", "text": "I had work, stop overreacting." }
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "I think we should split the tasks evenly next time." },
+      { "sender": "Alex", "text": "That’s fair. I can take the research part if you handle the writing." }
+    ],
+    "label": "healthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "You’re always late, it’s so annoying." },
+      { "sender": "Alex", "text": "Whatever, it’s not like you’re perfect either." }
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "Can we talk about what happened yesterday? I didn’t mean to upset you." },
+      { "sender": "Alex", "text": "Yeah, I appreciate that. Let’s clear the air." }
+    ],
+    "label": "healthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "Stop interrupting me!" },
+      { "sender": "Alex", "text": "If you’d actually say something useful, I wouldn’t need to." }
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "I didn’t understand your point in the meeting earlier." },
+      { "sender": "Alex", "text": "Oh, sorry! I can explain it again if you want." }
+    ],
+    "label": "healthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "You forgot to send the file again." },
+      { "sender": "Alex", "text": "Maybe if you reminded me properly, I wouldn’t have." }
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "Hey, how’s your week going so far?" },
+      { "sender": "Alex", "text": "Pretty good! Been catching up on some work. You?" },
+      { "sender": "me", "text": "Same here. Deadlines everywhere, but I’m surviving." },
+      { "sender": "Alex", "text": "Haha, we’re all in the same boat. Need a break soon." },
+      { "sender": "me", "text": "Absolutely. Coffee tomorrow?" }
+    ],
+    "label": "healthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "Why didn’t you reply to my message yesterday?" },
+      { "sender": "Alex", "text": "I was busy. Do I have to report every minute to you?" },
+      { "sender": "me", "text": "No, but it feels like you just ignore me when it’s not convenient." },
+      { "sender": "Alex", "text": "That’s not fair. You’re overreacting again." },
+      { "sender": "me", "text": "You always say that instead of listening." }
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "I think the presentation could use a stronger conclusion." },
+      { "sender": "Alex", "text": "Yeah, that makes sense. Maybe we can summarize the main findings again at the end." },
+      { "sender": "me", "text": "Good idea. I can write a draft and you can review it?" },
+      { "sender": "Alex", "text": "Perfect. Let’s finalize it before Thursday." }
+    ],
+    "label": "healthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "You didn’t update the slides again, did you?" },
+      { "sender": "Alex", "text": "I had too many things going on. It’s not like you’re helping much either." },
+      { "sender": "me", "text": "Excuse me? I’ve been fixing all your mistakes since day one." },
+      { "sender": "Alex", "text": "Wow, okay. Guess you’re perfect then." },
+      { "sender": "me", "text": "Forget it. I’ll just do everything myself." }
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "I didn’t do great in that interview. I just froze halfway." },
+      { "sender": "Alex", "text": "That happens to everyone sometimes. You’ll do better next time." },
+      { "sender": "me", "text": "Yeah, I guess. I just feel like I blew my chance." },
+      { "sender": "Alex", "text": "Not at all. You gained experience. Want to practice together before the next one?" }
+    ],
+    "label": "healthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "We keep having the same argument about chores." },
+      { "sender": "Alex", "text": "Because you keep bringing it up!" },
+      { "sender": "me", "text": "Because nothing changes! I end up doing everything." },
+      { "sender": "Alex", "text": "Maybe if you weren’t so controlling, I’d help more." },
+      { "sender": "me", "text": "You just proved my point." }
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "Hey, I noticed you seemed quiet today. Everything okay?" },
+      { "sender": "Alex", "text": "Yeah, just tired. Didn’t sleep much last night." },
+      { "sender": "me", "text": "Want to talk about what’s on your mind?" },
+      { "sender": "Alex", "text": "Not really, but thanks for asking. I just need some rest." },
+      { "sender": "me", "text": "Got it. Take care of yourself, okay?" }
+    ],
+    "label": "healthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "You didn’t tell me you were meeting them today." },
+      { "sender": "Alex", "text": "I didn’t think I had to inform you of every little thing." },
+      { "sender": "me", "text": "It’s not about that. I just wanted to be included." },
+      { "sender": "Alex", "text": "You’re too sensitive sometimes. It wasn’t a big deal." },
+      { "sender": "me", "text": "Maybe not to you, but it was to me." }
+    ],
+    "label": "neutral"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "I think our communication has gotten better lately." },
+      { "sender": "Alex", "text": "Yeah, I’ve noticed that too. We’re both listening more." },
+      { "sender": "me", "text": "I’m glad. It makes collaboration smoother." },
+      { "sender": "Alex", "text": "Definitely. Let’s keep that energy going." }
+    ],
+    "label": "healthy"
+  },
+  {
+    "messages": [
+      { "sender": "me", "text": "Can we please focus on the problem instead of blaming each other?" },
+      { "sender": "Alex", "text": "Fine. But you did mess up the data entry last time." },
+      { "sender": "me", "text": "True, but bringing that up now doesn’t help us fix this." },
+      { "sender": "Alex", "text": "You’re right. Let’s check the logs and fix it together." },
+      { "sender": "me", "text": "Thanks. That’s all I wanted." }
+    ],
+    "label": "healthy"
+  }
+]
