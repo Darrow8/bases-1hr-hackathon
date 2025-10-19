@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "conversation": [
+      {"speaker": "A", "text": "Hey, are you free to talk about the project?"},
+      {"speaker": "B", "text": "Yeah, sure! Let’s go over it now."}
+    ],
+    "label": "healthy"
+  },
+  {
+    "id": 2,
+    "conversation": [
+      {"speaker": "A", "text": "You never listen when I try to explain things."},
+      {"speaker": "B", "text": "That’s not true, you just don’t make any sense sometimes."}
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "id": 3,
+    "conversation": [
+      {"speaker": "A", "text": "I’m feeling a bit anxious about the presentation tomorrow."},
+      {"speaker": "B", "text": "Don’t worry, you’ve prepared really well. I’ll help you practice if you want."}
+    ],
+    "label": "healthy"
+  },
+  {
+    "id": 4,
+    "conversation": [
+      {"speaker": "A", "text": "Why did you ignore my message all day?"},
+      {"speaker": "B", "text": "I had work, stop overreacting."}
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "id": 5,
+    "conversation": [
+      {"speaker": "A", "text": "I think we should split the tasks evenly next time."},
+      {"speaker": "B", "text": "That’s fair. I can take the research part if you handle the writing."}
+    ],
+    "label": "healthy"
+  },
+  {
+    "id": 6,
+    "conversation": [
+      {"speaker": "A", "text": "You’re always late, it’s so annoying."},
+      {"speaker": "B", "text": "Whatever, it’s not like you’re perfect either."}
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "id": 7,
+    "conversation": [
+      {"speaker": "A", "text": "Can we talk about what happened yesterday? I didn’t mean to upset you."},
+      {"speaker": "B", "text": "Yeah, I appreciate that. Let’s clear the air."}
+    ],
+    "label": "healthy"
+  },
+  {
+    "id": 8,
+    "conversation": [
+      {"speaker": "A", "text": "Stop interrupting me!"},
+      {"speaker": "B", "text": "If you’d actually say something useful, I wouldn’t need to."}
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "id": 9,
+    "conversation": [
+      {"speaker": "A", "text": "I didn’t understand your point in the meeting earlier."},
+      {"speaker": "B", "text": "Oh, sorry! I can explain it again if you want."}
+    ],
+    "label": "healthy"
+  },
+  {
+    "id": 10,
+    "conversation": [
+      {"speaker": "A", "text": "You forgot to send the file again."},
+      {"speaker": "B", "text": "Maybe if you reminded me properly, I wouldn’t have."}
+    ],
+    "label": "unhealthy"
+  }
+
+[
+  {
+    "id": 1,
+    "conversation": [
+      {"speaker": "A", "text": "Hey, how’s your week going so far?"},
+      {"speaker": "B", "text": "Pretty good! Been catching up on some work. You?"},
+      {"speaker": "A", "text": "Same here. Deadlines everywhere, but I’m surviving."},
+      {"speaker": "B", "text": "Haha, we’re all in the same boat. Need a break soon."},
+      {"speaker": "A", "text": "Absolutely. Coffee tomorrow?"}
+    ],
+    "label": "healthy"
+  },
+  {
+    "id": 2,
+    "conversation": [
+      {"speaker": "A", "text": "Why didn’t you reply to my message yesterday?"},
+      {"speaker": "B", "text": "I was busy. Do I have to report every minute to you?"},
+      {"speaker": "A", "text": "No, but it feels like you just ignore me when it’s not convenient."},
+      {"speaker": "B", "text": "That’s not fair. You’re overreacting again."},
+      {"speaker": "A", "text": "You always say that instead of listening."}
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "id": 3,
+    "conversation": [
+      {"speaker": "A", "text": "I think the presentation could use a stronger conclusion."},
+      {"speaker": "B", "text": "Yeah, that makes sense. Maybe we can summarize the main findings again at the end."},
+      {"speaker": "A", "text": "Good idea. I can write a draft and you can review it?"},
+      {"speaker": "B", "text": "Perfect. Let’s finalize it before Thursday."}
+    ],
+    "label": "healthy"
+  },
+  {
+    "id": 4,
+    "conversation": [
+      {"speaker": "A", "text": "You didn’t update the slides again, did you?"},
+      {"speaker": "B", "text": "I had too many things going on. It’s not like you’re helping much either."},
+      {"speaker": "A", "text": "Excuse me? I’ve been fixing all your mistakes since day one."},
+      {"speaker": "B", "text": "Wow, okay. Guess you’re perfect then."},
+      {"speaker": "A", "text": "Forget it. I’ll just do everything myself."}
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "id": 5,
+    "conversation": [
+      {"speaker": "A", "text": "I didn’t do great in that interview. I just froze halfway."},
+      {"speaker": "B", "text": "That happens to everyone sometimes. You’ll do better next time."},
+      {"speaker": "A", "text": "Yeah, I guess. I just feel like I blew my chance."},
+      {"speaker": "B", "text": "Not at all. You gained experience. Want to practice together before the next one?"}
+    ],
+    "label": "healthy"
+  },
+  {
+    "id": 6,
+    "conversation": [
+      {"speaker": "A", "text": "We keep having the same argument about chores."},
+      {"speaker": "B", "text": "Because you keep bringing it up!"},
+      {"speaker": "A", "text": "Because nothing changes! I end up doing everything."},
+      {"speaker": "B", "text": "Maybe if you weren’t so controlling, I’d help more."},
+      {"speaker": "A", "text": "You just proved my point."}
+    ],
+    "label": "unhealthy"
+  },
+  {
+    "id": 7,
+    "conversation": [
+      {"speaker": "A", "text": "Hey, I noticed you seemed quiet today. Everything okay?"},
+      {"speaker": "B", "text": "Yeah, just tired. Didn’t sleep much last night."},
+      {"speaker": "A", "text": "Want to talk about what’s on your mind?"},
+      {"speaker": "B", "text": "Not really, but thanks for asking. I just need some rest."},
+      {"speaker": "A", "text": "Got it. Take care of yourself, okay?"}
+    ],
+    "label": "healthy"
+  },
+  {
+    "id": 8,
+    "conversation": [
+      {"speaker": "A", "text": "You didn’t tell me you were meeting them today."},
+      {"speaker": "B", "text": "I didn’t think I had to inform you of every little thing."},
+      {"speaker": "A", "text": "It’s not about that. I just wanted to be included."},
+      {"speaker": "B", "text": "You’re too sensitive sometimes. It wasn’t a big deal."},
+      {"speaker": "A", "text": "Maybe not to you, but it was to me."}
+    ],
+    "label": "neutral"
+  },
+  {
+    "id": 9,
+    "conversation": [
+      {"speaker": "A", "text": "I think our communication has gotten better lately."},
+      {"speaker": "B", "text": "Yeah, I’ve noticed that too. We’re both listening more."},
+      {"speaker": "A", "text": "I’m glad. It makes collaboration smoother."},
+      {"speaker": "B", "text": "Definitely. Let’s keep that energy going."}
+    ],
+    "label": "healthy"
+  },
+  {
+    "id": 10,
+    "conversation": [
+      {"speaker": "A", "text": "Can we please focus on the problem instead of blaming each other?"},
+      {"speaker": "B", "text": "Fine. But you did mess up the data entry last time."},
+      {"speaker": "A", "text": "True, but bringing that up now doesn’t help us fix this."},
+      {"speaker": "B", "text": "You’re right. Let’s check the logs and fix it together."},
+      {"speaker": "A", "text": "Thanks. That’s all I wanted."}
+    ],
+    "label": "healthy"
+  }
+]
+
