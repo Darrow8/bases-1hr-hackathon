@@ -1,9 +1,5 @@
 {
-    "participants": [
-        "Lena",
-        "Ryan"
-    ],
-    "conversation": [
+"messages": [
         {
             "sender": "Lena",
             "message": "hey, are you still coming to dinner with my friends tonight?"
