@@ -3,7 +3,9 @@ import os
 import sys
 from dataclasses import dataclass
 from typing import List, Optional, Dict, Any, Tuple
+from dotenv import load_dotenv
 
+load_dotenv()
 
 """
 Toxic or Not - conversation analyzer
@@ -114,7 +116,9 @@ def build_prompt(messages: List[Dict[str, str]], max_examples: int = 12, convers
         "You are a strict toxicity classifier. Given a short chat excerpt, "
         f"determine if {partner_name} (messages where sender != 'me') is toxic. "
         "Return a single line JSON object with fields: toxicity_label ('toxic' or 'not_toxic'), "
-        "toxicity_score (0-1, higher=worse), and brief_reason (<= 20 words)."
+        "toxicity_score (0-1, higher=worse), and brief_reason (<= 20 words). "
+        f"If toxicity_label is 'toxic', also include ending_message: a brief, respectful first-person message to {partner_name} "
+        "that ends the relationship clearly, avoids insults or profanity, and is <= 50 words."
     )
 
     return (
@@ -127,7 +131,7 @@ def build_prompt(messages: List[Dict[str, str]], max_examples: int = 12, convers
 
 def get_openai_client():
     """Create a minimal OpenAI client. Uses the official python library if available."""
-    api_key = os.environ.get("OPENAI_API_KEY")
+    api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise RuntimeError("OPENAI_API_KEY is required")
 
@@ -193,7 +197,12 @@ def classify_toxicity(client, system_prompt: str, user_prompt: str) -> Dict[str,
         score = 0.0
     if label not in ("toxic", "not_toxic"):
         label = "unknown"
-    return {"toxicity_label": label, "toxicity_score": score, "brief_reason": reason}
+    ending_message = None
+    if label == "toxic":
+        em = parsed.get("ending_message")
+        if isinstance(em, str) and em.strip():
+            ending_message = em.strip()
+    return {"toxicity_label": label, "toxicity_score": score, "brief_reason": reason, "ending_message": ending_message}
 
 
 def main(argv: List[str]) -> int:
@@ -223,7 +232,11 @@ def main(argv: List[str]) -> int:
         partner_name, found = infer_partner_name(sample.messages)
         if not found:
             partner_name = name_stem
-        print(f"{filename} [{partner_name}]: {label} (score={score:.2f}) - {reason}")
+        line = f"{filename} [{partner_name}]: {label} (score={score:.2f}) - {reason}"
+        ending_message = result.get("ending_message")
+        if label == "toxic" and isinstance(ending_message, str) and ending_message:
+            line += f"\n  Suggested ending message -> {ending_message}"
+        print(line)
 
     return 0
 

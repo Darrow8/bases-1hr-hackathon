@@ -54,3 +54,11 @@ data.json [Alex]: toxic (score=0.82) - insults and threats
 
 If the other participant's name is not present in messages, the script falls back to the
 filename (e.g., `jack.json` -> `jack`).
+
+When a contact is classified as toxic, the output also includes a concise, respectful
+suggested ending message:
+
+```
+data.json [Alex]: toxic (score=0.82) - insults and threats
+  Suggested ending message -> Alex, I need to step back from this relationship. Our conversations haven’t felt healthy for me, so I’m ending contact. I wish you well.
+```
